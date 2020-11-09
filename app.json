@@ -1,26 +1,34 @@
-
 {
-    "name": "WHOIS-Telegram-Bot",
+    "name": "WHOIS Telegram Bot",
     "description": "This is a simple Telegram Bot which will produce WHOIS data for a given domain.",
-    "repository": "https://github.com/Abhijith-cloud/WHOIS-Telegram-Bot.git",
-    "keywords": ["telegram", "pyrogram", "WHOIS","telegram bot"],
+    "keywords": [
+      "telegram", 
+      "pyrogram", 
+      "WHOIS",
+      "telegram bot"
+    ],
+    "repository": "https://github.com/Abhijith-cloud/WHOIS-Telegram-Bot",
+    "website": "https://telegram.dog/thankappan369",
     "env": {
-       "BOT_TOKEN": {
-        "description": "Your Bot token from @Botfather",
-        "value": ""
-      },
-      "API_ID": {
-        "description": "Your API_ID from https://my.telegram.org/apps ",
-        "value": ""
-      },
-      "API_HASH": {
-        "description": "Your API_HASH from https://my.telegram.org/apps",
-        "value": ""
-      }
-     },
-     "buildpacks": [
-      {
-        "url": "heroku/python"
-      }
-    ]
-  }
+        "APP_ID": {
+            "description": "Get this value from my.telegram.org! Please do not steal"
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org! Please do not steal"
+        },
+        "TG_BOT_TOKEN": {
+            "description": "Obtain a Telegram bot token by contacting @BotFather"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
