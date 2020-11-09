@@ -1,0 +1,26 @@
+
+{
+    "name": "WHOIS-Telegram-Bot",
+    "description": "This is a simple Telegram Bot which will produce WHOIS data for a given domain.",
+    "repository": "https://github.com/Abhijith-cloud/WHOIS-Telegram-Bot",
+    "keywords": ["telegram", "pyrogram", "WHOIS","telegram bot"],
+    "env": {
+       "BOT_TOKEN": {
+        "description": "Your Bot token from @Botfather",
+        "value": ""
+      },
+      "API_ID": {
+        "description": "Your API_ID from https://my.telegram.org/apps ",
+        "value": ""
+      },
+      "API_HASH": {
+        "description": "Your API_HASH from https://my.telegram.org/apps",
+        "value": ""
+      }
+     },
+     "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
