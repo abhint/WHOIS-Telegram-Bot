@@ -35,8 +35,8 @@ async def whoisDomain(clinet, message):
         await clinet.send_message(
         chat_id=message.chat.id,
         text = f"""
-        <b>TLD not supported \n</b>
-        Please contact Admin \n
+        <b>TLD not supported\n</b>
+        Please contact Admin\n
         @thankappan369
         """,
         parse_mode="html"
@@ -52,8 +52,8 @@ async def whoisDomain(clinet, message):
             await clinet.send_message(
                 chat_id = message.chat.id,
                 text = f"""
-                {error} \n 
-                Please contact Admin \n 
+                {error}\n 
+                Please contact Admin\n 
                 @thankappan369""",
                 parse_mode="html"
             )
