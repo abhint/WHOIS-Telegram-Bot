@@ -1,9 +1,23 @@
 # WHOIS Telegram Bot
-## installation
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abhijith-cloud/WHOIS-Telegram-Bot/)
+## Installation
+
+1. Clone the project repository
+
 ```sh
-$ git clone https://github.com/Abhijith-cloud/WHOIS-Telegram-Bot.git / gh repo clone Abhijith-cloud/WHOIS-Telegram-Bot
+// With HTTPS
+$ git clone https://github.com/AbhijithNT/WHOIS-Telegram-Bot.git
 ```
+```sh
+// With SSH
+$ git clone git@github.com:AbhijithNT/WHOIS-Telegram-Bot.git
+```
+```sh
+// With GitHub CLI
+$ gh repo clone AbhijithNT/WHOIS-Telegram-Bot
+```
+
+2. Install Requirements
+
 ```sh
 $ pip3 install -r requirements.txt
 ```
@@ -27,6 +41,10 @@ click the link to get your app id & api_hash [my.telegram.org](https://my.telegr
 ```sh
 $ python3 -m bot
 ```
+### Deploy
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbhijithNT/WHOIS-Telegram-Bot/)
+
 
 ## Credits, and Thanks to
 
