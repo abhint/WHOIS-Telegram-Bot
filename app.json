@@ -7,7 +7,7 @@
       "WHOIS",
       "telegram bot"
     ],
-    "repository": "https://github.com/Abhijith-cloud/WHOIS-Telegram-Bot",
+    "repository": "https://github.com/AbhijithNT/WHOIS-Telegram-Bot/",
     "website": "https://telegram.dog/thankappan369",
     "env": {
         "APP_ID": {
