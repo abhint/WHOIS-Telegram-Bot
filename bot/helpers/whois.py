@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # This is bot coded by Abhijith-cloud and used for educational purposes only
-# https://github.com/Abhijith-cloud
+# https://github.com/AbhijithNT/WHOIS-Telegram-Bot
 # (c) Abhijith N T
 
 from pyrogram import Client, Filters
