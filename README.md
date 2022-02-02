@@ -5,15 +5,15 @@
 
 ```sh
 // With HTTPS
-$ git clone https://github.com/AbhijithNT/WHOIS-Telegram-Bot.git
+$ git clone https://github.com/abhint/WHOIS-Telegram-Bot.git
 ```
 ```sh
 // With SSH
-$ git clone git@github.com:AbhijithNT/WHOIS-Telegram-Bot.git
+$ git clone git@github.com:abhint/WHOIS-Telegram-Bot.git
 ```
 ```sh
 // With GitHub CLI
-$ gh repo clone AbhijithNT/WHOIS-Telegram-Bot
+$ gh repo clone abhint/WHOIS-Telegram-Bot
 ```
 
 2. Install Requirements
@@ -43,7 +43,7 @@ $ python3 -m bot
 ```
 ### Deploy
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbhijithNT/WHOIS-Telegram-Bot/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/abhint/WHOIS-Telegram-Bot/)
 
 
 ## Credits, and Thanks to

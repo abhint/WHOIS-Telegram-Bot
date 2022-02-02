@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
 # This is bot coded by Abhijith-cloud and used for educational purposes only
-# https://github.com/AbhijithNT/WHOIS-Telegram-Bot
+# https://github.com/abhint/WHOIS-Telegram-Bot
 # (c) Abhijith N T
 
 from pyrogram import Client, Filters
@@ -17,8 +16,8 @@ async def startMsg(client, message):
         Hey {message.from_user.first_name},
         \nThis is a simple Telegram Bot which will produce WHOIS data for a given domain.
         \nCreated using the available open-source code.
-        \nSource Code: https://github.com/Abhijith-cloud/WHOIS-Telegram-Bot
-        \n© @thankappan369
+        \nSource Code: https://github.com/abhint/WHOIS-Telegram-Bot
+        \n© @abhint
         </b>
         """,
         reply_to_message_id=message.message_id,
@@ -37,7 +36,7 @@ async def whoisDomain(clinet, message):
         text = f"""
         <b>TLD not supported\n</b>
         Please contact Admin\n
-        @thankappan369
+        @abhint
         """,
         parse_mode="html"
         )
@@ -54,7 +53,7 @@ async def whoisDomain(clinet, message):
                 text = f"""
                 {error}\n 
                 Please contact Admin\n 
-                @thankappan369""",
+                @abhint""",
                 parse_mode="html"
             )
 
